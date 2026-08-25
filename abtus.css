@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgb(172, 140, 98);
+    border-radius: 15px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    color: #000000;
+    padding: 20px 75px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px; 
+    min-height: 520px;
+}
+
+
+.content-left, .content-mid, .content-mid2, .content-right {
+    background-color: rgb(172, 140, 98);
+    border-radius: 20px; 
+    padding: 20px;
+    flex: 10; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.corn, .phumichan, .radubsungkarn, .taygoh {
+    width: 100%;
+    align-items: center;
+}
+
+.btn-back{
+    background-color: #b35c32;
+    color: #000000;
+    padding: 25px 5%;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
